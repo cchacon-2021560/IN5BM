@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h5 {
+    font-weight: 400;
+    color: white;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.btn {
+    border-radius: 0.5rem;
+}
+
+.table {
+    font-size: 0.8rem;
+}
+
+#fondoCarrusel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.carrusel-fondo {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(70%);
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+}
